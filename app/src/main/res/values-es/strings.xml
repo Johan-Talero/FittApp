@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FittApp</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Log In</string>
+    <string name="register">Registro</string>
+    <string name="forgotPassword">¿Has olvidado tu contraseña?</string>
+    <string name="createUser">Crear usuario</string>
+    <string name="back">Volver</string>
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sábado</string>
+    <string name="IMC">IMC</string>
+    <string name="menu">Menu</string>
+    <string name="logOut">Salir</string>
+    <string name="classes">Clases</string>
+    <string name="collection">Chat</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="weightPerformance">Rendimiento en Peso</string>
+    <string name="weight">Peso</string>
+    <string name="samples">Muestras</string>
+    <string name="new_imc">Nuevo IMC</string>
+    <string name="height">Altura</string>
+    <string name="imcRegister">Registro de IMC</string>
+    <string name="pull">Entrenamiento tipo PULL</string>
+    <string name="push">Entrenamiento tipo PUSH</string>
+    <string name="legs">Entrenamiento de Pierna</string>
+    <string name="age">Edad</string>
+    <string name="name">Nombre</string>
+    <string name="save_changes">Guardar Cambios</string>
+    <string name="profile">Perfil</string>
+</resources>

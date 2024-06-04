@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FittApp</string>
+    <string name="username">User</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="forgotPassword">¿Forgot password?</string>
+    <string name="createUser">Create User</string>
+    <string name="back">Back</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="IMC">IMC</string>
+    <string name="menu">Menu</string>
+    <string name="logOut">Log Out</string>
+    <string name="classes">Classes</string>
+    <string name="collection">Chat</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="weightPerformance">Performance Weight</string>
+    <string name="weight">Weight</string>
+    <string name="samples">Samples</string>
+    <string name="new_imc">New IMC</string>
+    <string name="height">Height</string>
+    <string name="imcRegister">IMC Register</string>
+    <string name="pull">PULL type training</string>
+    <string name="push">PUSH type training</string>
+    <string name="legs">Leg training</string>
+    <string name="age">Age</string>
+    <string name="name">Name</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="profile">Profile</string>
+</resources>

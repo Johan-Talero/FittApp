@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".UI.IMC.ConsultIMCActivity">
+
+    <include
+        android:id="@+id/viewToolBar"
+        layout="@layout/view_tool_bar" />
+
+    <TextView
+        android:id="@+id/asd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvRecycler1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        app:cardCornerRadius="15dp">
+
+        <com.androidplot.xy.XYPlot
+            android:id="@+id/imcGraphic"
+            style="@style/APDefacto.Light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:domainTitle="@string/samples"
+            app:lineLabelRotationBottom="-45"
+            app:lineLabels="left|bottom"
+            app:rangeTitle="@string/weight"
+            app:title="@string/weightPerformance" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registerIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/gray_medium"
+        android:text="@string/new_imc"
+        app:cornerRadius="5dp" />
+
+</LinearLayout>
