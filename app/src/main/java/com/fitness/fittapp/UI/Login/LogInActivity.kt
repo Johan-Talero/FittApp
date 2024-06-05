@@ -35,7 +35,7 @@ class LogInActivity : AppCompatActivity() {
     }
 
     private fun setupPeriodicWork() {
-        val workRequest = PeriodicWorkRequestBuilder<NotificationWorker>(15, TimeUnit.SECONDS)
+        val workRequest = PeriodicWorkRequestBuilder<NotificationWorker>(30, TimeUnit.SECONDS)
             .build()
 
         WorkManager.getInstance(this).enqueue(workRequest)
